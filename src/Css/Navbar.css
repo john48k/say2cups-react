@@ -62,13 +62,18 @@
 }
 
 nav {
+    
+    font-family: navFont;
+    width:100%;
+}
+
+nav ul {
     display: flex;
     align-items: center;
-    justify-content: center;
-    padding-top: 40px;
-    padding-left: 10%;
-    padding-right: 10%;
-    font-family: navFont;
+    justify-content: space-between;
+    padding-left: 0;
+    width: 100%;
+    margin-bottom: 0px;
 }
 
 .logo {
@@ -105,9 +110,8 @@ nav ul li a {
     position: relative;
 }
 
-.menu li:hover .dropdown {
+.menu:hover .dropdown {
     display: block;
-    padding-left: 0px;
     text-align: center;
 }
 

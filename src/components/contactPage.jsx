@@ -1,87 +1,12 @@
+import { Navbar } from "./NavBar";
+
 export default function ContactPage() {
   return (
-    <div className="navclass">
-      <header>
-        <nav>
-          <a
-            href="HomePage.html"
-            className="font green-say2cups logo cursor link-remove green-point text_flick"
-          >
-            Say2Cups
-          </a>
-          <ul>
-            <li>
-              <a href="HomePage.html" className="green-point text_flick">
-                home
-              </a>
-            </li>
-            <li>
-              <a href="beatsPage.html" className="green-point text_flick">
-                beats
-              </a>
-            </li>
-            <li>
-              <a href="kitsPage.html" className="green-point text_flick">
-                kits
-              </a>
-            </li>
-            <li>
-              <a href="galleryPage.html" className="green-point text_flick">
-                gallery
-              </a>
-            </li>
-            <li className="menu">
-              <a href="#" className="green-point text_flick">
-                socials
-              </a>
-              <ul className="dropdown">
-                <li>
-                  <a
-                    href="https://instagram.com/say2cups/"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    instagram
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href="https://www.youtube.com/@Say2Cups"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    youtube
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href="https://soundcloud.com/say2cups"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    soundcloud
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href="https://open.spotify.com/artist/5WFyQ3M1qaPqFYnpZ44bAg"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    spotify
-                  </a>
-                </li>
-              </ul>
-            </li>
-            <li>
-              <a href="contactPage.html" className="green text_flick">
-                contact
-              </a>
-            </li>
-          </ul>
-        </nav>
+    <div className="hero">
+      <Navbar page="contacts" />
+      <div className="aboutpage">
         <h1 id="headerText">Contact</h1>
-        <div className="gallery">
+        <div className="contact-gallery">
           <div className="email">
             <form
               action="https://formsubmit.co/say2cups1@gmail.com"
@@ -113,7 +38,7 @@ export default function ContactPage() {
                 Send
               </button>
             </form>
-            <div className="contact_image gallery">
+            <div className="contact_image">
               <img
                 className="contact_image_size"
                 src="Images/money3d.gif"
@@ -122,7 +47,7 @@ export default function ContactPage() {
             </div>
           </div>
         </div>
-      </header>
+      </div>
     </div>
   );
 }

@@ -1,5 +1,6 @@
 body{
   background-color: rgb(0, 0, 0);
-  height: 100vh;
   cursor: url("Images/Cursor/CursorMain.png"), auto;
+  width: 610px;
+  margin: 3em auto 0;
 }

@@ -5,6 +5,11 @@ export default function Beats() {
   return (
     <div className="hero">
       <Navbar page="Beats" />
+      <div className="aboutpage"></div>
+      <p id="header_text" className="header-text">
+        Purchase Beats Here
+      </p>
+
       <div className="beat-align-cards">
         <div className="beat-card-container text_flick_faster">
           <img

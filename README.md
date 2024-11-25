@@ -1,4 +1,17 @@
-# React + Vite
+## Say2Cups Portfolio Website / Ecommerce Beat Store
+
+<br>
+I'm working on creating a portfolio website to showcase my e-commerce production website, highlighting its features, design, and functionalities, and show case my works in visual designs and visual media production.
+<br>
+<br>
+
+
+<img width="1440" alt="HomePage" src="https://github.com/user-attachments/assets/b423285d-b8e0-4657-ac3e-3c0cea9834b5">
+<img width="1440" alt="Screenshot 2024-10-08 at 8 30 30 PM" src="https://github.com/user-attachments/assets/63742754-57ab-459e-ac0e-687ced464002">
+
+<br>
+<br>
+
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 

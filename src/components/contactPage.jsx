@@ -1,6 +1,12 @@
 import { Navbar } from "./NavBar";
+import { useEffect } from "react"; // Step 1: Import useEffect
 
 export default function ContactPage() {
+  // Step 2: Set the document title
+  useEffect(() => {
+    document.title = "Contact | Say2Cups ⌖"; // Change this to your desired title
+  }, []);
+
   return (
     <div className="hero">
       <Navbar page="contacts" />

@@ -1,7 +1,13 @@
+import { useEffect } from "react"; // Step 1: Import useEffect
 import { Navbar } from "./NavBar";
 import ShoppingCartIcon from "@mui/icons-material/ShoppingCart";
 
 export default function Beats() {
+  // Step 2: Set the document title
+  useEffect(() => {
+    document.title = "Beats | Say2Cups ⌖"; // Change this to your desired title
+  }, []);
+
   return (
     <div className="hero">
       <Navbar page="Beats" />

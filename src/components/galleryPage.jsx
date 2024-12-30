@@ -1,6 +1,12 @@
 import { Navbar } from "./NavBar";
+import { useEffect } from "react"; // Step 1: Import useEffect
 
-export default function Gallery() {
+export default function Beats() {
+  // Step 2: Set the document title
+  useEffect(() => {
+    document.title = "Gallery | Say2Cups ⌖"; // Change this to your desired title
+  }, []);
+
   return (
     <div className="hero">
       <Navbar page="Gallery" />

@@ -14,7 +14,7 @@ export default function Kits() {
         <h1 id="header_text" className="kit_headerText">
           Kits
         </h1>
-        <div className="gallery">
+        <div className="video">
           <div>
             <img src="Images/say2cups_drumkit_00000.png" alt="" />
             <p className="pText about-font kit_title_move" id="pf1">

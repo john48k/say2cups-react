@@ -20,7 +20,12 @@ export default function Homepage() {
           <b>
             {/* <span>Music Producer</span>/Video Editor/Full Stack Developer */}
             {/* <span>all were born of flesh and blood</span> */}
-            <div style={{ display: "flex", alignItems: "center" }}>
+            <div
+              style={{
+                display: "flex",
+                alignItems: "center",
+              }}
+            >
               <span style={{ marginLeft: "50px", marginRight: "0px" }}>
                 I've seen my death. I know my hour.
               </span>

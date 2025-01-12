@@ -14,9 +14,8 @@ export function Navbar({ page }) {
         <li>
           <a
             href="/"
-            className={`green-point text_flick ${
-              page === "home" ? "green" : ""
-            }`}
+            className={`green-point text_flick ${page === "home" ? "green" : ""
+              }`}
           >
             home
           </a>
@@ -24,9 +23,8 @@ export function Navbar({ page }) {
         <li>
           <a
             href="Beats"
-            className={`green-point text_flick ${
-              page === "Beats" ? "green" : ""
-            }`}
+            className={`green-point text_flick ${page === "Beats" ? "green" : ""
+              }`}
           >
             beats
           </a>
@@ -34,29 +32,26 @@ export function Navbar({ page }) {
         <li>
           <a
             href="Kits"
-            className={`green-point  text_flick ${
-              page === "Kits" ? "green" : ""
-            }`}
+            className={`green-point  text_flick ${page === "Kits" ? "green" : ""
+              }`}
           >
             kits
           </a>
         </li>
         <li>
           <a
-            href="Gallery"
-            className={`green-point text_flick ${
-              page === "Gallery" ? "green" : ""
-            }`}
+            href="videos"
+            className={`green-point text_flick ${page === "videos" ? "green" : ""
+              }`}
           >
-            gallery
+            videos
           </a>
         </li>
         <li className="menu">
           <a
             href="#"
-            className={`green-point  text_flick ${
-              page === "socials" ? "green" : ""
-            }`}
+            className={`green-point  text_flick ${page === "socials" ? "green" : ""
+              }`}
           >
             socials
           </a>
@@ -102,9 +97,8 @@ export function Navbar({ page }) {
         <li>
           <a
             href="Contacts"
-            className={`green-point text_flick ${
-              page === "contacts" ? "green" : ""
-            }`}
+            className={`green-point text_flick ${page === "contacts" ? "green" : ""
+              }`}
           >
             contact
           </a>

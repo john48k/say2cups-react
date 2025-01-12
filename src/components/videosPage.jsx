@@ -4,21 +4,21 @@ import { useEffect } from "react"; // Step 1: Import useEffect
 export default function Beats() {
   // Step 2: Set the document title
   useEffect(() => {
-    document.title = "Gallery | Say2Cups ⌖"; // Change this to your desired title
+    document.title = "Videos | Say2Cups ⌖"; // Change this to your desired title
   }, []);
 
   return (
     <div className="hero">
-      <Navbar page="Gallery" />
+      <Navbar page="Videos" />
       <div className="aboutpage"></div>
       <p id="header_text" className="header-text">
         Visuals made with a vision
       </p>
-      <div className="gallery">
+      <div className="video">
         <div>
           <video className="video" src="Videos/step bro.mp4" controls></video>
           <p className="pText about-font" id="pf1">
-            Are you seriously watching this by yourself!
+            Are you seriously watching **** by yourself!
           </p>
         </div>
 
@@ -101,7 +101,7 @@ export default function Beats() {
           </p>
         </div>
       </div>
-      <script src="gallery.js"></script>
+      <script src="video.js"></script>
     </div>
   );
 }

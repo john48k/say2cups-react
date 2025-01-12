@@ -3,14 +3,14 @@ import * as ReactDOM from "react-dom/client";
 import Homepage from "./components/Homepage";
 import Contacts from "./components/contactPage";
 import Beats from "./components/beatsPage";
-import Gallery from "./components/galleryPage";
+import Videos from "./components/VideosPage";
 import Kits from "./components/kitsPage";
 import { Startup } from "./components/StartupPage";
 import "./Css/About.css";
 import "./Css/text_Flicker.css";
 import "./Css/beatsPage.css";
 import "./Css/contactPage.css";
-import "./Css/galleryPage.css";
+import "./Css/videosPage.css";
 import "./Css/kitsPage.css";
 import "./Css/Navbar.css";
 import "./Css/StartupPage.css";
@@ -27,8 +27,8 @@ const router = createBrowserRouter([
     element: <Contacts />,
   },
   {
-    path: "/gallery",
-    element: <Gallery />,
+    path: "/videos",
+    element: <Videos />,
   },
   {
     path: "/beats",

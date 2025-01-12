@@ -29,12 +29,12 @@
 
 .green-say2cups {
     color: rgb(34, 255, 49);
-    animation: gallery-text-flicker 0.2s ease-in-out infinite;
+    animation: video-text-flicker 0.2s ease-in-out infinite;
     text-decoration: none;
     margin: 0;
 }
 
-@keyframes gallery-text-flicker {
+@keyframes video-text-flicker {
     0% {
         opacity: 1;
     }

@@ -13,7 +13,7 @@
     src: url("/Fonts/alagard.ttf");
   }
   
-  @keyframes gallery-text-flicker {
+  @keyframes video-text-flicker {
     0% {
       opacity: 1;
     }
@@ -111,20 +111,20 @@
     text-align: center;
     color: rgb(34, 255, 49);
     font-weight: lighter;
-    animation: gallery-text-flicker 0.2s ease-in-out infinite;
+    animation:  video-text-flicker 0.2s ease-in-out infinite;
   }
   
-  .gallery {
+  .video {
     display: grid;
     grid-template-columns: repeat(2, 1fr); /* Two columns */
     grid-template-rows: repeat(2, auto); /* Two rows */
     gap: 10px; /* No space between videos */
     padding: 0;
-    width: 100%; /* Set a specific width for the gallery */
-    margin: 0 auto; /* Center the gallery */
+    width: 100%; 
+    margin: 0 auto; 
   }
   
-  .gallery > div {
+  .video > div {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -151,7 +151,7 @@
   .kit_headerText {
     font-family: bit2;
     font-weight: 200;
-    animation: gallery-text-flicker 0.2s ease-in-out infinite;
+    animation: video-text-flicker 0.2s ease-in-out infinite;
   }
   
   .kit_text_adjust {

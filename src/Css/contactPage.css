@@ -18,7 +18,7 @@
     src: url(/Fonts/OldLondon.ttf);
   }
   
-  @keyframes gallery-text-flicker {
+  @keyframes video-text-flicker {
     0% {
       opacity: 1;
     }
@@ -87,18 +87,18 @@
     font-family: bit2;
     font-size: 40px;
     font-weight: 10;
-    animation: gallery-text-flicker 0.2s ease-in-out infinite;
+    animation: video-text-flicker 0.2s ease-in-out infinite;
   }
   
-  .contact-gallery {
+  .contact-video {
     display: grid;
     gap: 10px; /* No space between videos */
     padding: 0;
-    width: 520px; /* Set a specific width for the gallery */
-    margin: 0 auto; /* Center the gallery */
+    width: 520px; 
+    margin: 0 auto; 
   }
   
-  .contact-gallery > div {
+  .contact-video > div {
     display: flex;
     flex-direction: column;
     align-items: center;

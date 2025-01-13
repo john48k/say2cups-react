@@ -68,6 +68,14 @@
       opacity: 100;
     }
   }
+
+  .green {
+    color: rgb(0, 221, 18);
+}
+
+.green-point:hover {
+    color: rgb(0, 255, 0);
+}
   
   .pText {
     /* font-family: aboutFont;

@@ -12,7 +12,7 @@ export default function ContactPage() {
       <Navbar page="contacts" />
       <div className="aboutpage">
         <h1 id="headerText">Contact</h1>
-        <div className="contact-gallery">
+        <div className="contact-video">
           <div className="email">
             <form
               action="https://formsubmit.co/say2cups1@gmail.com"

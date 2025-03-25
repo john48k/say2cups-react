@@ -3,7 +3,7 @@ import * as ReactDOM from "react-dom/client";
 import Homepage from "./components/Homepage";
 import Contacts from "./components/contactPage";
 import Beats from "./components/beatsPage";
-import Videos from "./components/VideosPage";
+// import Videos from "./components/VideosPage";
 import Kits from "./components/kitsPage";
 import { Startup } from "./components/StartupPage";
 import "./Css/About.css";
